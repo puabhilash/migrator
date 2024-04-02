@@ -1,0 +1,79 @@
+.header{
+	border: 1px solid #CBCBCB;
+	background-color: #000000;
+	padding: 10px;
+}
+.headerlabel a{
+	font-weight: bold;
+	color: #ffffff; 
+	text-decoration: none;
+}
+.headerlabel:hover {
+	cursor: pointer;
+}
+.templatepanel{
+	border: 1px solid #CBCBCB;
+	background-color: #edf5ff;
+	margin: 5px;
+	padding: 5px;
+}
+.yui-dt-hidden{
+	display: none;
+}
+.yui-dt-last td{
+	border-bottom: none !important;
+}
+.yui-skin-sam .yui-dt th{
+	background-color: #BCD8F4;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+}
+.yui-skin-sam .yui-dt-scrollable .yui-dt-hd{
+	background-color: transparent !important;
+	width: fit-content !important;
+}
+.yui-skin-sam .yui-dt-scrollable .yui-dt-bd{
+	width: fit-content !important;
+}
+.yui-skin-sam .yui-panel .hd{
+	background-color: #b3d9ff;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% ) !important;
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+	background: #b3d9ff no-repeat ;
+}
+.close{
+	position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 20px;
+    height: 15px;
+   /*  background: url(/migrator/res/js/assets/skins/sam/sprite.png) no-repeat 0 -300px; */
+   background: url("/migrator/res/images/dialogCloseIcon.png") no-repeat;
+    cursor: pointer;
+}
+.yui-skin-sam .yui-dt th, .yui-skin-sam .yui-dt th a{
+	border-top: none;
+}
+#templateDetailsTable .yui-dt-empty{
+	text-align: center !important;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

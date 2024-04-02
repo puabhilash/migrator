@@ -1,0 +1,302 @@
+.header{
+	border: 1px solid #CBCBCB;
+	background-color: #000000;
+	padding: 10px;
+}
+.headerlabel a{
+	font-weight: bold;
+	color: #ffffff; 
+	text-decoration: none;
+}
+.headerlabel:hover {
+	cursor: pointer;
+}
+.readonly{
+	background-color: #F2F4F4;
+    border: none;
+}
+.alfrescopanel{
+	margin-left: 450px;
+}
+.vl {
+  	border-left: 1px solid #CBCBCB;
+    padding: 5px;
+    height: 10px
+}
+.filetypepanel{
+	border: 1px solid #CBCBCB;
+	padding: 5px;
+	background-color: #f5f5f0;
+}
+.label{
+	width: 100px;
+	white-space: nowrap;
+	font-weight: bold;
+}
+.typeproptable .yui-dt-hidden{
+	border: none !important;
+}
+.tablesize{
+	width:310px;
+	height: 400px;
+}
+.typeproptable .yui-dt-last td{
+	border-bottom: none !important;
+}
+.yui-dt td{
+	border-right: none !important;
+}
+.yui-dt th{
+	border-right: none !important;
+	display: none;
+}
+.yui-dt tr.yui-dt-first td{
+	border-top: none !important;
+}
+.yui-dt-last td{
+	border-bottom: none !important;
+}
+.tablelabels{
+	background-color: #f5f5f0;
+    text-align: center;
+    width: 292px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #CBCBCB;
+}
+.actions{
+	width: 10px;
+}
+.error{
+	border: 1px solid red;
+}
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
+}
+.circle { 
+	width: 30px;
+	animation: 2s rotate360 infinite linear; 
+}
+.hidden{
+	display:none;
+}
+.wrapper {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    width: 25px;
+}
+
+.animated-check {
+    height: 10em;
+    width: 10em
+}
+
+.animated-check path {
+    fill: none;
+    stroke: #7ac142;
+    stroke-width: 4;
+    stroke-dasharray: 23;
+    stroke-dashoffset: 23;
+    animation: draw 1s linear forwards;
+    stroke-linecap: round;
+    stroke-linejoin: round
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0
+    }
+}
+
+.checkmark {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px #ff6666;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark_circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #ff6666;
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark_check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #ff6666;
+  }
+}
+.close{
+	position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 20px;
+    height: 15px;
+   /*  background: url(/migrator/res/js/assets/skins/sam/sprite.png) no-repeat 0 -300px; */
+   background: url("/migrator/res/images/dialogCloseIcon.png") no-repeat;
+    cursor: pointer;
+}
+.yui-button.yui-push-button {
+	background-color: #BCD8F4;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+}
+.yui-button .first-child{
+	border-style: none !important;
+}
+.yui-skin-sam .yui-button-hover{
+	background-color: #86bdf2;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+  	color: #000000;
+  	-webkit-transition-duration: 0.2s;
+  	-moz-transition-duration: 0.2s;
+  	transition-duration: 0.2s;
+  	background-position: 0 0;
+}
+.yui-skin-sam .yui-push-button-hover{
+	background-color: #86bdf2;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+  	color: #000000;
+  	-webkit-transition-duration: 0.2s;
+  	-moz-transition-duration: 0.2s;
+  	transition-duration: 0.2s;
+  	background-position: 0 0;
+}
+.yui-skin-sam .yui-navset .yui-nav a, .yui-skin-sam .yui-navset .yui-navset-top .yui-nav a{
+	background-color: #BCD8F4;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+}
+.yui-skin-sam .yui-navset .yui-nav .selected a, .yui-skin-sam .yui-navset .yui-nav .selected a:focus, .yui-skin-sam .yui-navset .yui-nav .selected a{
+	background-color: #BCD8F4;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+	background: #BCD8F4 no-repeat ;
+}
+.yui-skin-sam .yui-navset .yui-nav .selected a, .yui-skin-sam .yui-navset .yui-nav .selected a:focus, .yui-skin-sam .yui-navset .yui-nav .selected a:hover{
+	background-color: #86bdf2;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+	-webkit-transition-duration: 0.2s;
+	-moz-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+}
+.yui-skin-sam .yui-panel .hd{
+	background-color: #b3d9ff;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% ) !important;
+	background-repeat: repeat-x;
+	border: 1px solid #759DC0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+	color: #000000;
+	background: #b3d9ff no-repeat ;
+}
+.zit {
+	opacity: 0.5;
+	position: relative;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	/* Apply a CSS3 Transition to width, height, top and left properties */
+	transition: width 0.3s ease, height 0.3s ease, left 0.3s ease, top 0.3s
+		ease;
+	-webkit-transition: width 0.3s ease, height 0.3s ease, left 0.3s ease,
+		top 0.3s ease;
+	-o-transition: width 0.3s ease, height 0.3s ease, left 0.3s ease, top
+		0.3s ease;
+	-moz-transition: width 0.3s ease, height 0.3s ease, left 0.3s ease, top
+		0.3s ease;
+}
+
+.zit:hover {
+	opacity: 1;
+	z-index: 5;
+	width: 25px;
+	height: 25px;
+	zoom: 1;
+	filter: alpha(opacity =     100);
+	opacity: 1;
+}
+.ZoomIt ul {
+	clear: both;
+	margin-left: -50px;
+    margin-top: -25px;
+}
+
+.ZoomIt li {
+	width: 10px;
+	height: 10px;
+	float: left;
+	margin: 4px;
+	padding: 3px;
+	overflow: visible;
+	display: block;
+}
+.delete{
+	width: 10px;
+}
+.delete:hover {
+	cursor: pointer;
+}
+.circle { 
+	width: 30px;
+	animation: 2s rotate360 infinite linear; 
+}
+.yui-dt-loading{
+	text-align: center !important;
+}
+.yui-skin-sam .yui-dt-message td{
+	text-align: center !important;
+}

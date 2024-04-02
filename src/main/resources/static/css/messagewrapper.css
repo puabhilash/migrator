@@ -1,0 +1,102 @@
+#migratordisplaymessage.yui-panel .bd{
+	padding: 10px;
+    background-color: #808080 !important;
+    color: #FFFFFF;
+    min-height: 30px;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+}
+#migratordisplayprompt .ft span.default{
+	background-position: 0 0 !important;
+}
+#migratordisplayprompt .ft span.default button{
+	color: #000000;
+}
+#migratordisplayprompt .ft .button-group{
+	text-align: center;
+}
+#migratordisplayprompt .yui-panel .hd{
+	text-align: center !important;
+}
+#migratordisplaymessage .bd span.wait{
+	background-image: url("/migrator/res/images/alfresco-logo-vector-1.svg");
+	animation: 2s rotate360 infinite linear;
+	background-size: 18px;
+	background-repeat: no-repeat;
+}
+#migratorDestinationPanel .destinationspace{
+	width: 500px;
+	height: 300px;
+	overflow: auto;
+}
+#migratorDestinationPanel .ygtvlph{
+	width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 -6400px no-repeat;
+}
+#migratorDestinationPanel .ygtvlm {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 0px no-repeat;
+}
+#migratorDestinationPanel .ygtvlmh {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 0px no-repeat;
+}
+#migratorDestinationPanel .ygtvtm {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 -4000px no-repeat;
+}
+#migratorDestinationPanel .ygtvtmh {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 -4000px no-repeat;
+}
+#migratorDestinationPanel .ygtvtp {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 -6400px no-repeat;
+}
+#migratorDestinationPanel .ygtvtph {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 -6400px no-repeat;
+}
+#migratorDestinationPanel .ygtvlp {
+    width: 18px;
+    height: 22px;
+    cursor: pointer;
+    background: url(/migrator/res/images/treeview-sprite.gif) 0 -6400px no-repeat;
+}
+#migratorDestinationPanel .ygtvlabel{
+	margin-left: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+#migratorDestinationPanel .ygtvlabel:hover{
+	margin-left:2px;
+	text-decoration:none;
+	background-color:#c0e0e0;
+	cursor:pointer
+}
+#migratorDestinationPanel .selected{
+	background-color: #c0e0e0 !important;
+}
+#migratorDestinationPanel .ygtvloading{
+	width:18px;
+	height:22px;
+	background:url(/migrator/res/images/treeloading.gif) 0 0 no-repeat;
+	background-size: 18px 22px;
+}

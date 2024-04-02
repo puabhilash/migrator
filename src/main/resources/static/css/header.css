@@ -1,0 +1,133 @@
+.header{
+	border: 1px solid #CBCBCB;
+	background-color: #000000;
+	padding: 10px;
+}
+.headerlabel a{
+	font-weight: bold;
+	color: #ffffff; 
+	text-decoration: none;
+}
+.headerlabel:hover {
+	cursor: pointer;
+}
+.helpText{
+	border: 1px solid #CBCBCB;
+	background-color: #f5f5f0;
+}
+.helpicon{
+	width: 15px;	
+}
+.helpicon:hover{
+	cursor: pointer;	
+}
+.yui-skin-sam .yui-button-disabled {
+	background-position: 0 0 !important;
+}
+.yui-skin-sam .yui-pb-ltr .yui-pb-bar, .yui-skin-sam .yui-pb-rtl .yui-pb-bar {
+    background-image: url(/migrator/res/images/progressfill.PNG) !important;
+    background-repeat: repeat-x;
+    box-shadow: 0px 0px 20px #759dc0;
+}
+.yui-skin-sam .yui-push-button-hover{
+	background-color: #86bdf2;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% );
+  	color: #000000;
+  	-webkit-transition-duration: 0.2s;
+  	-moz-transition-duration: 0.2s;
+  	transition-duration: 0.2s;
+  	background-position: 0 0;
+  	box-shadow: 0px 0px 8px #86bdf2 !important;
+}
+.yui-skin-sam .yui-panel-container.shadow .underlay {
+    position: absolute !important;
+    top: 2px !important;
+    left: -3px !important;
+    right: -3px !important;
+    bottom: -3px !important;
+    background-color: #86bdf2 !important;
+    opacity: .12 !important;
+    filter: alpha(opacity=12) !important;
+    box-shadow: 0px 0px 15px #86bdf2 !important;
+    display: none;
+}
+.circle { 
+	width: 30px;
+	animation: 2s rotate360 infinite linear;
+}
+button:focus{
+	outline: none;
+}
+.close{
+	position: absolute;
+    top: 9px;
+    right: 5px;
+    width: 20px;
+    height: 15px;
+   /*  background: url(/migrator/res/js/assets/skins/sam/sprite.png) no-repeat 0 -300px; */
+   background: url("/migrator/res/images/dialogCloseIcon.png") no-repeat;
+    cursor: pointer;
+}
+.yui-button.yui-push-button {
+	background-color: #BCD8F4 !important;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% ) !important;
+	background-repeat: repeat-x !important;
+	border: 1px solid #759DC0 !important;
+	border-radius: 4px !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+	color: #000000 !important;
+}
+.yui-skin-sam .yui-button-hover{
+	background-color: #86bdf2 !important;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% ) !important;
+  	color: #000000 !important;
+  	-webkit-transition-duration: 0.2s !important;
+  	-moz-transition-duration: 0.2s !important;
+  	transition-duration: 0.2s !important;
+  	background-position: 0 0 !important;
+}
+.yui-skin-sam .yui-push-button-hover{
+	background-color: #86bdf2 !important;
+	background-image: linear-gradient(#FFFFFF 0px, rgba(255, 255, 255, 0)
+		3px, rgba(255, 255, 255, 0.75) 100% ) !important;
+  	color: #000000 !important;
+  	-webkit-transition-duration: 0.2s !important;
+  	-moz-transition-duration: 0.2s !important;
+  	transition-duration: 0.2s !important;
+  	background-position: 0 0 !important;
+}
+.yui-skin-sam .yui-button-focus {
+	background-position: 0 !important;
+}
+.yui-skin-sam .yui-push-button-focus{
+	background-position: 0 !important;
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
+}

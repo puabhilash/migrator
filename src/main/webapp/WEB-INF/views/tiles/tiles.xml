@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+ 
+<tiles-definitions>  
+  
+   <!-- Template Definition -->
+   <definition name="base.def" template="/WEB-INF/views/html/defaultlayout.jsp">  
+       <put-attribute name="title" value="" />  
+       <put-attribute name="header" value="/WEB-INF/views/html/header.jsp" />  
+       <put-attribute name="body" value="" />  
+       <put-attribute name="footer" value="/WEB-INF/views/html/footer.jsp" />  
+   </definition>  
+  
+   <!-- Main Page -->
+   <definition name="home" extends="base.def">  
+       <put-attribute name="title" value="Home" />  
+       <put-attribute name="body" value="/WEB-INF/views/html/home.jsp" />  
+   </definition>  
+   
+   <definition name="configurations" extends="base.def">  
+       <put-attribute name="title" value="Configurations" />  
+       <put-attribute name="body" value="/WEB-INF/views/html/configurations.jsp" />  
+   </definition>
+   
+   <definition name="reports" extends="base.def">  
+       <put-attribute name="title" value="Reports" />  
+       <put-attribute name="body" value="/WEB-INF/views/html/reports.jsp" />  
+   </definition>
+   <definition name="migration" extends="base.def">  
+       <put-attribute name="title" value="Migration" />  
+       <put-attribute name="body" value="/WEB-INF/views/html/migration.jsp" />  
+   </definition>
+   <definition name="templates" extends="base.def">  
+       <put-attribute name="title" value="Templates" />  
+       <put-attribute name="body" value="/WEB-INF/views/html/templates.jsp" />  
+   </definition>
+ 
+   
+  
+</tiles-definitions>
